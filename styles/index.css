@@ -317,6 +317,7 @@
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  overflow: hidden;
 }
 
 @media (max-width: 765px) {
@@ -329,7 +330,6 @@
   line-height: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  overflow: hidden;
   white-space: nowrap;
   color: #016450;
   margin: 0;
