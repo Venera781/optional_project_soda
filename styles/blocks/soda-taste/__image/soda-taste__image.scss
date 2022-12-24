@@ -1,0 +1,20 @@
+.soda-taste__image {
+  width: 100%;
+  grid-column: 3/4;
+  grid-row: 1/5;
+  aspect-ratio: 518/345;
+}
+
+@media (max-width: 925px) {
+  .soda-taste__image {
+    grid-column: 1;
+    grid-row: 5/6;
+    aspect-ratio: 548/364;
+  }
+}
+
+@media (max-width: 425px) {
+  .soda-taste__image {
+    aspect-ratio: 240/160;
+  }
+}

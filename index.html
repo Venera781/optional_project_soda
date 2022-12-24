@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/index.css">
+  <title>Soda</title>
+</head>
+
+<body class="page">
+  <header class="soda-pineapple">
+    <h1 class="soda-pineapple__title">SODA</h1>
+    <div class="soda-pineapple__wrap">
+      <img class="soda-pineapple__image" src="./images/jarritos-pineapple.png" alt="Джаритос-Пайнэппл сода">
+    </div>
+    <div class="soda-pineapple__wrapper">
+      <p class="soda-pineapple__subtitle">Вкусные лимонады
+        из&nbsp;фруктов</p>
+      <button type="button" class="button button_type_yellow soda-pineapple__button">Подробнее</button>
+    </div>
+  </header>
+  <main class="main">
+    <div class="soda-fresh">
+      <p class="soda-fresh__text">— Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh —
+        Fresh — Fresh — Fresh — Fresh — </p>
+    </div>
+    <section class="soda">
+      <h2 class="soda__title">Как это работает?</h2>
+      <article class="soda-taste">
+        <h3 class="soda__subtitle  soda-taste__title">Вкусы</h3>
+        <p class="soda__description soda-taste__description">Пейте фрукты, а не газировку со вкусовыми&nbsp;добавками,
+          наши
+          лимонады на 100%&nbsp;натуральны!</p>
+        <img class="soda-taste__image" src="./images/jarritos-strawberry.png" alt="Джаритос-Мексикон сода">
+      </article>
+      <article class="soda-composition">
+        <h3 class="soda__subtitle soda-composition__title">Состав</h3>
+        <p class="soda__description soda-composition__description">Наши натуральные лимонады делаются
+          из&nbsp;натуральных
+          компонентов</p>
+        <ul class="soda-composition__elements">
+          <li class="soda-composition__element">Сок</li>
+          <li class="soda-composition__element">Пюре</li>
+          <li class="soda-composition__element">Вода</li>
+          <li class="soda-composition__element">Пузыри</li>
+          <li class="soda-composition__element">Витамины</li>
+        </ul>
+        <button type="button" class="button button_type_yellow soda-composition__button">Попробовать</button>
+      </article>
+    </section>
+    <section class="soda-mango">
+      <h2 class="soda-mango__title">SODA —
+        натуральные
+        лимонады!</h2>
+      <img class="soda-mango__image" src="./images/jarritos-mango.png" alt="Джаритос-манго">
+    </section>
+    <section class="samples">
+      <h3 class="samples__title">Семплы</h3>
+      <p class="samples__description">Хотите получить семплы каждого&nbsp;вкуса,
+        чтобы&nbsp;понять что нравится&nbsp;вам? заполните форму!</p>
+      <form action="#" class="form" name="samplesForm">
+        <fieldset class="form__container">
+          <legend class="form__title">Семплы</legend>
+          <label class="form__label form__label_name">Имя *
+            <input class="form__input form__name" type="text" name="name" value="" required autocomplete="off">
+          </label>
+          <label class="form__label form__label_surname">Фамилия *
+            <input class="form__input form__surname" type="text" name="surname" value="" required autocomplete="off">
+          </label>
+          <label class="form__label form__label_email"> Email *
+            <input class="form__input form__email" type="email" name="email" autocomplete="off" required>
+          </label>
+          <button type="submit" class="button button_type_purple form__button">Запросить</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <h3 class="footer__title">SODA</h3>
+    <nav class="footer__nav">
+      <p class="footer__subtitle">Меню</p>
+      <ul class="footer__menu ">
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Вкусы</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Состав</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Семплы</a></li>
+      </ul>
+    </nav>
+    <div class="footer__contact">
+      <p class="footer__subtitle">Контакты</p>
+      <ul class="footer__list">
+        <li class="footer__contact-email footer__contact-email_press"><a href="mailto:press@soda.io"
+            class="footer__menu-link">press@soda.io</a>
+        </li>
+        <li class="footer__contact-email footer__contact-email_connect"><a href="mailto:connect@soda.io"
+            class="footer__menu-link">connect@soda.io</a>
+        </li>
+      </ul>
+    </div>
+    <p class="footer__copyright">&copy;&nbsp;2021 Soda, Inc. All Rights Reserved.</p>
+  </footer>
+</body>
+
+</html>
