@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 460fr 216fr 430fr;
   grid-template-rows: 120fr 200fr 280fr;
-  background-image: url("../../../images/mango-green.svg");
+  background-image: url("../images/mango-green.svg");
   background-size: 219px;
   background-position: top 42px left 701px;
   background-repeat: no-repeat;
@@ -27,9 +27,9 @@
 @media (max-width: 925px) {
   .soda-mango {
     grid-template-columns: auto;
-    grid-template-rows: auto 120fr 610fr;
+    grid-template-rows: 200fr 120fr 610fr;
     padding: 70px 54px 0;
-    background-position: top 400px left 54px;
+    background-position: top 396px left 54px;
   }
 }
 
@@ -43,7 +43,7 @@
 @media (max-width: 425px) {
   .soda-mango {
     background-position: bottom 125px left 14px;
-    background-image: url("../../../images/mobile_mango-green.svg");
+    background-image: url("../images/mobile_mango-green.svg");
     background-size: 126px;
   }
 }

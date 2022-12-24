@@ -11,12 +11,13 @@
 <body class="page">
   <header class="soda-pineapple">
     <h1 class="soda-pineapple__title">SODA</h1>
-    <img class="soda-pineapple__image" src="./images/jarritos-pineapple.png" alt="Джаритос-Пайнэппл сода">
-    <img class="soda-pineapple__image-union" src="./images/union-ananas.svg" alt="Ананас">
+    <div class="soda-pineapple__wrap">
+      <img class="soda-pineapple__image" src="./images/jarritos-pineapple.png" alt="Джаритос-Пайнэппл сода">
+    </div>
     <div class="soda-pineapple__wrapper">
       <p class="soda-pineapple__subtitle">Вкусные лимонады
         из&nbsp;фруктов</p>
-      <button type="button" class="button button__type_yellow soda-pineapple__button">Подробнее</button>
+      <button type="button" class="button button_type_yellow soda-pineapple__button">Подробнее</button>
     </div>
   </header>
   <main class="main">
@@ -45,7 +46,7 @@
           <li class="soda-composition__element">Пузыри</li>
           <li class="soda-composition__element">Витамины</li>
         </ul>
-        <button type="button" class="button button__type_yellow soda-composition__button">Попробовать</button>
+        <button type="button" class="button button_type_yellow soda-composition__button">Попробовать</button>
       </article>
     </section>
     <section class="soda-mango">
@@ -56,9 +57,9 @@
     </section>
     <section class="samples">
       <h3 class="samples__title">Семплы</h3>
-      <p class="samples__description">Хотите получить семплы каждого вкуса,
-        чтобы&nbsp;понять что нравится вам? заполните форму!</p>
-      <form action="#" class="form">
+      <p class="samples__description">Хотите получить семплы каждого&nbsp;вкуса,
+        чтобы&nbsp;понять что нравится&nbsp;вам? заполните форму!</p>
+      <form action="#" class="form" name="samplesForm">
         <fieldset class="form__container">
           <legend class="form__title">Семплы</legend>
           <label class="form__label form__label_name">Имя *
@@ -70,7 +71,7 @@
           <label class="form__label form__label_email"> Email *
             <input class="form__input form__email" type="email" name="email" autocomplete="off" required>
           </label>
-          <button type="submit" class="button button__type_purple form__button">Запросить</button>
+          <button type="submit" class="button button_type_purple form__button">Запросить</button>
         </fieldset>
       </form>
     </section>

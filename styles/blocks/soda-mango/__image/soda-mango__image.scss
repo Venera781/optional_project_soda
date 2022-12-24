@@ -1,16 +1,22 @@
 .soda-mango__image {
-    width: 100%;
-    grid-row: 1/6;
-    grid-column: 3/4;
-    z-index: -2;   
+  grid-row: 1/6;
+  grid-column: 3/4;
+  z-index: -2;
+  aspect-ratio: 430/610;
 }
 
 @media (max-width: 925px) {
-    .soda-mango__image {
-        max-width: 430px;
-        grid-row: 3/4;
-        grid-column: 1;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .soda-mango__image {
+    grid-row: 3/4;
+    grid-column: 1;
+    margin-left: auto;
+    margin-right: auto;
   }
+}
+
+@media (max-width: 425px) {
+  .soda-mango__image {
+    width: 100%;
+    aspect-ratio: 280/397;
+  }
+}

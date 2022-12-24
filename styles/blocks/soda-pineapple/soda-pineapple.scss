@@ -2,7 +2,7 @@
   display: grid;
   position: relative;
   background-color: $purple-primary-color;
-  background-image: url("../../../images/bg-c.svg");
+  background-image: url("../images/bg-c.svg");
   background-size: 405px;
   background-repeat: no-repeat;
   background-position: top 0 right 0;
@@ -15,7 +15,7 @@
   position: absolute;
   display: block;
   content: "";
-  background-image: url("../../../images/made-on-earth.svg");
+  background-image: url("../images/made-on-earth.svg");
   width: 169px;
   height: 169px;
   background-size: contain;
@@ -35,7 +35,7 @@
 @media (max-width: 1370px) {
   .soda-pineapple {
     background-size: 320px;
-    grid-template-columns: 400fr 80fr 457fr;
+    grid-template-columns:  auto 125fr 340fr;
   }
 }
 
@@ -45,7 +45,7 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1100px) {
   .soda-pineapple {
     grid-template-columns: 668fr;
     grid-template-rows: 30fr 126fr auto 50fr;
